@@ -18,6 +18,8 @@ public class TicketBase {
 	}
 	
 	//special purpose methods
-	
+	public void printTicketInformation() {
+		System.out.println(id+" "+type);
+	}
 
 }
