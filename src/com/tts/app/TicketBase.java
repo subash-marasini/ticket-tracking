@@ -18,6 +18,7 @@ public class TicketBase {
 	}
 	
 	//special purpose methods
+	//This method prints the ticket information. Very simple method no return and parameters.
 	public void printTicketInformation() {
 		System.out.println(id+" "+type);
 	}
